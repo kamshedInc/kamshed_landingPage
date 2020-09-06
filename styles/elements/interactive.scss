@@ -1,0 +1,51 @@
+@import "../util";
+
+a {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+    transform-style: preserve-3d;
+}
+
+.button {
+    //  button text
+    padding: 9px 15px;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    
+    margin-top: 15px;
+    border-radius: 7px;
+    background-color: #242626;
+    background-image: url("https://uploads-ssl.webflow.com/5f4e83aaa3a86074391cca15/5f4f2dd4d4f579b205e235e5_broken-link.png");
+    background-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-transform: none;
+    cursor: pointer;
+}
+
+
+@media (max-width:$breakpoint-tablet) {
+    .button {
+        position: static;
+        left: auto;
+        display: inline-block;
+        margin-right: 0px;
+        margin-left: 0px;
+        float: none;
+        clear: none;  
+    }   
+}
+
+
+@media (max-width:$breakpoint-phone) {
+    .button {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        background-position: 90% 50%;
+        background-repeat: no-repeat;
+        text-align: center;
+    }   
+}

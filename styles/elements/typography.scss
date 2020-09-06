@@ -1,0 +1,47 @@
+@import "../util";
+
+h1 {
+    margin: .67em 0;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 38px;
+    line-height: 44px;
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+    transform-style: preserve-3d;
+}
+
+.heading {
+    text-align: unset;
+}
+@media (max-width: $breakpoint-tablet) {
+    .heading {
+        text-align: center;
+    }
+}
+
+
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+    transform-style: preserve-3d;
+}
+
+.paragraph {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+    text-transform: none;
+}
+@media (max-width: $breakpoint-tablet) {
+    .paragraph {
+        text-align: center;
+    }
+}
