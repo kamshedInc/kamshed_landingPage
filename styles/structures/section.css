@@ -1,4 +1,4 @@
-.section {
+.hero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,5 +15,11 @@
   background-repeat: repeat, repeat;
   opacity: 1;
   cursor: auto;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    padding-top: 100px;
+  }
 }
 /*# sourceMappingURL=section.css.map */

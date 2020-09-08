@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>Kamshed</title>
-    <!--    32px for in tab                <link href="...icon_32px.png" rel="shortcut icon" type="image/x-icon"> -->
-    <!--    256px for some phone thing     <link href="...icon.png" rel="apple-touch-icon"> -->
+    <link href="images/kamshed-icon_32px.png" rel="shortcut icon" type="image/x-icon">
+    <link href="images/kamshed-icon.png" rel="apple-touch-icon">
     <link rel="stylesheet" href="./styles/main/main.css">
     <link rel="stylesheet" href="./styles/structures/container.css">
+    <link rel="stylesheet" href="./styles/structures/navbar.css">
     <link rel="stylesheet" href="./styles/structures/grid.css">
     <link rel="stylesheet" href="./styles/structures/section.css">
     <link rel="stylesheet" href="./styles/elements/image.css">
@@ -15,10 +16,12 @@
     <link rel="stylesheet" href="./styles/elements/typography.css">
 </head>
 <body class="body" data-gr-c-s-loaded="true">
-    <div class="section">
-        <div class="container-3 w-container">
-            <img src="...logoWithWord.jpg" loading="lazy" alt="" class="image-3">
+    <navbar>
+        <div class="container-3 navbar-img-container">
+            <img src="images/kamshed-logo.jpg" loading="lazy" alt="" class="image-3 navbar-img">
         </div>
+    </navbar>
+    <section class="hero">
         <div class="container w-container">
             <div class="w-layout-grid grid">
                 <div class="container-info">
@@ -46,20 +49,20 @@
                         style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;" 
                         href="https://yesimme.com" 
                         target="_blank" 
-                        class="button w-button">
+                        class="button w-button button-img">
                         YesImMe.com
                     </a>
                 </div>
                 <img 
-                    src="...floatingPhoneImage.png" 
+                    src="images/phone-verified.png" 
                     loading="eager" 
                     alt="Phone showing user verification" 
                     width="449" 
                     id="phone-verification" 
                     style="transform: translate3d(0px, -2.87946px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d; will-change: transform;" 
                     class="image image-phone">
-                </div>
             </div>
         </div>
+    </section>
 </body>
 </html>
